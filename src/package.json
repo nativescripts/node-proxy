@@ -1,0 +1,23 @@
+{
+  "name": "node-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "hot": "hotnode app.js"
+  },
+  "author": "risker",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "colors-cli": "^1.0.8",
+    "express": "^4.15.2",
+    "hotnode": "^0.0.8",
+    "http-proxy-middleware": "^0.17.4",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4",
+    "velocity": "^0.7.2",
+    "velocityjs": "^0.9.5"
+  }
+}
